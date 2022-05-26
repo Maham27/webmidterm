@@ -1,57 +1,45 @@
 
-  body
-  {
-     margin: 0;
-  }
- 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-    overflow: hidden;
-    background-color: black;
-    width: 100%;
-  }
   
-  li {
-    float: right;
-  }
+ .nav-link{
+
+   
+   color:white;
+ }
   
-  li a {
-    display: block;
+  .intro{
     color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    font-size: 35px;
+     padding-left: 120px;
+     padding-top: 100px;
   }
-  
-  li a:hover:not(.active) {
-    background-color: black;
+  .skill h2{
+    color: white;
+font-size: 17px;
   }
-  
-  .active {
-    background-color: black;
-  }
-  .port
+  .skill1
   {
-    font-family: "Sofia", sans-serif;
-  
-    font-style: italic;
-    font-weight: bold;
-    
+    max-height: 300px;
   }
+  
+ 
+  
+  
+ 
   .p1
   {
   
     background-color: white;
     border-radius: 30px;
    margin: 10px;
+   padding: 10px;
+   max-height: 500px;
    
 
   }
   .image img{
     margin: 10px;
     width: 80%;
+   height: 200px;
     border-radius: 10px;
  
    
@@ -92,24 +80,7 @@
     margin: 4px 2px;
     
   }
-  @media screen and (max-width: 500px) {
-
-   ul{
-     padding:20px;
-     margin: 0px;
-   }
-   li  {
-
-    padding:0px;
-    margin: 0px;
-   }
-   li a
-   {padding:0px;
-    margin: 10px;
-
-
-
-   }
+ 
    .port
    {
 
